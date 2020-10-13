@@ -1,0 +1,1 @@
+alias http='http -a admin:admin '
