@@ -1,1 +1,1 @@
-/Volumes/neolab/code/django/rest-tutorial/snippets/views_4_mixed_in.py
+views_4_mixed_in.py

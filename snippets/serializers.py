@@ -1,1 +1,1 @@
-/Volumes/neolab/code/django/rest-tutorial/snippets/serializers_2_Model.py
+serializers_3_hyperlink.py
