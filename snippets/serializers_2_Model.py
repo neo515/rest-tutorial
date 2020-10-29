@@ -6,7 +6,7 @@ from snippets.models import Snippet, LANGUAGE_CHOICES, STYLE_CHOICES
 # ModelSerializer需要关联一个已存在的model
 class SnippetSerializer(serializers.ModelSerializer):
     owner = serializers.ReadOnlyField(source='owner.username')
-    # owner = serializers.CharField(source='owner.username',read_only=True)
+    # owner = serializers.CharField(source='owner.username',read_only=True)  #同上面
 
     class Meta:
         model = Snippet
