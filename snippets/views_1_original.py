@@ -13,6 +13,7 @@ from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 
+# 被Response取代,见后文
 class JSONResponse(HttpResponse):
     """
     An HttpResponse that renders its content into JSON.

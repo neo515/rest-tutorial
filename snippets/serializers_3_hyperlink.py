@@ -9,6 +9,7 @@ from snippets.models import Snippet, LANGUAGE_CHOICES, STYLE_CHOICES
 class SnippetSerializer(serializers.HyperlinkedModelSerializer):
     # owner = serializers.CharField(source='owner.username',read_only=True)
     owner = serializers.ReadOnlyField(source='owner.username')
+    # view_name 在urls.py有使用, 是什么关系?  //暂时 未知
     highlight = serializers.HyperlinkedIdentityField(view_name='snippet-highlight', format='html')
 
 

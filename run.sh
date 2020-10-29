@@ -6,4 +6,5 @@ workon haina
 pip3 -V
 python -V
 
-nohup ./manage.py runserver 0.0.0.0:8000 >> svc.log 2>&1 &
+#nohup ./manage.py runserver 0.0.0.0:8000 >> svc.log 2>&1 &
+./manage.py runserver 0.0.0.0:8000
